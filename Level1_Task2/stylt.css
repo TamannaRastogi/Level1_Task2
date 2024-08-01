@@ -1,0 +1,48 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+/* Universal box-sizing rule */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background: #66cabd; /* Light teal background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    font-family: 'Montserrat', sans-serif; /* Apply imported font */
+}
+
+/* Styling for h2 element with ID 'GFG' */
+#GFG {
+    margin-bottom: 20px; /* Adds space below the h2 element */
+    color: rgb(101, 210, 230); /* Text color */
+}
+
+/* Styling for button with ID 'colorButton' */
+#colorButton {
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size for the button text */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: #ff5733; /* Background color of the button */
+    color: white; /* Text color of the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Button hover effect */
+#colorButton:hover {
+    background-color: #c70039; /* Darker background color on hover */
+}
+
+/* Styling for h1 elements */
+h1 {
+    font-weight: bold; /* Bold font weight */
+    margin: 0; /* Remove default margin */
+    color: rgb(192, 107, 142); /* Text color */
+}

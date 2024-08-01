@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Button Color</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js" defer></script> <!-- Use defer to ensure the script loads after the document -->
+</head>
+  <body style="text-align: center;">
+    <!-- Button to trigger JavaScript function -->
+    <button onclick="myFunc()">Click here</button>
+    <br> <!-- Moves the following content to the next line -->
+    
+    <h2 id="GFG" style="color: rgb(101, 210, 230);"></h2>
+    
+    <h1 style="color: rgb(31, 29, 30);">Calculator</h1>
+    <form id="calculator">
+        <input type="number" id="num1" placeholder="Number 1" required>
+        <input type="number" id="num2" placeholder="Number 2" required>
+        <button type="button" onclick="calculateSum()">Add</button>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
